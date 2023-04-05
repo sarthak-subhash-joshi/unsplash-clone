@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.search{
+  align-items: center;
+  margin: 30px 10%;
+  padding: 20px;
+  /* position: relative; */
+}
+
+.search input{
+  width: 80%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 16px;
+  padding-left:20px
+}
+
+.search button{
+  padding: 5px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;  
+  font-size: 18px;
+  position: relative;
+  background-color: white;
+  position: relative;
+  right: 45px;
+  }
+
+button:hover{
+  opacity: 0.8;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 10px;
+}
+
+.images img{
+  height: 300px;
+  width: 270px;
+  margin: 10px;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 400px) {
+  .search button{
+    padding: 5px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;  
+    font-size: 18px;
+    position: relative;
+    background-color: white;
+    position: relative;
+    bottom: 35px;
+    left: 35%;
+    }
+}
