@@ -1,5 +1,0 @@
-const Data=[
-    {
-        regular:"mdn"
-    }
-]
