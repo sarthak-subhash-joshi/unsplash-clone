@@ -1,0 +1,5 @@
+const Data=[
+    {
+        regular:"mdn"
+    }
+]
